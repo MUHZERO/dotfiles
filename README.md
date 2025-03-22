@@ -25,7 +25,6 @@ These are my personal dotfiles for various applications, with a focus on my Hypr
 - **Hyprland**: Custom configuration for Hyprland, a dynamic Wayland compositor.
 - **Neovim**: My Neovim configuration for a smooth coding experience with plugins and custom mappings.
 - **Neovide**: Custom settings for Neovide, a graphical frontend for Neovim.
-- **Swaync**: Configuration for notifications in Sway.
 - **Waybar**: Custom status bar for Wayland.
 - **Wlogout**: Simple Wayland logout utility.
 - **Alacritty**: Lightweight terminal emulator with custom configurations.
