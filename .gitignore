@@ -1,0 +1,10 @@
+# Ignore backup files
+*~
+
+# Ignore swap files
+.swp
+.swo
+
+# Ignore sensitive files
+secrets.yaml
+

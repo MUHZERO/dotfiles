@@ -1,0 +1,121 @@
+{
+  // sourced from header module //
+  "include": "~/.config/waybar/modules",
+  "layer": "top",
+  "position": "top",
+  "mod": "dock",
+  "height": 40,
+  "exclusive": true,
+  "passthrough": false,
+  "gtk-layer-shell": true,
+
+  "modules-left": [
+    "custom/padd", "custom/l_end", "hyprland/workspaces", 
+    "custom/r_end", "custom/l_end", "cpu", "memory", 
+    "temperature", "custom/r_end", "custom/padd"
+  ],
+
+  "modules-center": [
+    "custom/padd", "custom/l_end", "clock", 
+    "custom/r_end", "custom/padd", "custom/l_end", "custom/weather", 
+    "custom/r_end", "custom/padd"
+  ],
+
+  "modules-right": [
+    "custom/padd", "custom/l_end", "network#speed", "custom/r_end",
+    "custom/padd", "custom/l_end", "battery", "pulseaudio", 
+    "pulseaudio#microphone", "custom/updates", "custom/r_end", 
+    "custom/l_end", "tray", "custom/r_end", "custom/l_end", 
+    "custom/power", "custom/r_end", "custom/padd"
+  ],
+
+  "cpu": {
+    "interval": 10,
+    "format": "󰍛   {usage}%",
+    "format-alt": "{icon0}{icon1}{icon2}{icon3}",
+    "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"]
+  },
+
+  "memory": {
+    "interval": 30,
+    "format": "󰾆   {percentage}%",
+    "format-alt": "󰾅   {used}GB",
+    "max-length": 30,
+    "tooltip": true,
+    "tooltip-format": "  {used:0.1f}GB/{total:0.1f}GB"
+  },
+
+  "hyprland/workspaces": {
+    "disable-scroll": true,
+    "all-outputs": true,
+    "on-click": "activate",
+    "persistent_workspaces": {
+      "1": [], "2": [], "3": [], "4": [], "5": [], "6": [],
+      "7": [], "8": [], "9": [], "10": []
+    }
+  },
+
+  "hyprland/window": {
+    "format": "  {}",
+    "separate-outputs": true,
+    "rewrite": {
+      "vivek@ArchVivek:(.*)": "$1 ",
+      "(.*) — Mozilla Firefox": "$1 󰈹",
+      "(.*)Mozilla Firefox": "Firefox 󰈹",
+      "(.*) - Visual Studio Code": "$1 󰨞",
+      "(.*)Visual Studio Code": "Code 󰨞",
+      "(.*) — Dolphin": "$1 󰉋",
+      "(.*)Spotify": "Spotify 󰓇",
+      "(.*)Steam": "Steam 󰓓"
+    }
+  },
+
+  "tray": {
+    "icon-size": 20,
+    "spacing": 9
+  },
+
+  // modules for padding //
+  "custom/l_end": {
+    "format": " ",
+    "interval": "once",
+    "tooltip": false
+  },
+
+  "custom/r_end": {
+    "format": " ",
+    "interval": "once",
+    "tooltip": false
+  },
+
+  "custom/sl_end": {
+    "format": " ",
+    "interval": "once",
+    "tooltip": false
+  },
+
+  "custom/sr_end": {
+    "format": " ",
+    "interval": "once",
+    "tooltip": false
+  },
+
+  "custom/rl_end": {
+    "format": " ",
+    "interval": "once",
+    "tooltip": false
+  },
+
+  "custom/rr_end": {
+    "format": " ",
+    "interval": "once",
+    "tooltip": false
+  },
+
+  "custom/padd": {
+    "format": "  ",
+    "interval": "once",
+    "tooltip": false
+  }
+}
+
