@@ -7,4 +7,7 @@
 
 # Ignore sensitive files
 secrets.yaml
+# Ignore any logs or temporary files
+*.log 
+*.temp
 

@@ -2,6 +2,24 @@
 
 These are my personal dotfiles for various applications, with a focus on my Hyprland and Neovim configurations.
 
+## Screenshots
+
+### Neovim Configuration
+
+![Neovim Setup](images/neovim.png)
+
+### Waybar Configuration
+
+![Waybar Setup](images/waybar.png)
+
+### Rofi Configuration
+
+![Rofi Setup](images/rofi.png)
+
+### Wallpapers
+
+![Wallpaper](images/walppaers.png)
+
 ## What’s Included
 
 - **Hyprland**: Custom configuration for Hyprland, a dynamic Wayland compositor.
