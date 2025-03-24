@@ -36,6 +36,6 @@ To use these dotfiles, clone this repository to your machine and create symbolic
 ### Step 1: Clone the repository
 
 ```bash
-git clone https://github.com/your-username/dotfiles.git ~/.dotfiles
+git clone https://github.com/MUHZERO/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 
