@@ -18,7 +18,7 @@ These are my personal dotfiles for various applications, with a focus on my Hypr
 
 ### Wallpapers
 
-![Wallpaper](images/walppaers.png)
+![Wallpaper](images/wallpapers.png)
 
 ## What’s Included
 
@@ -27,7 +27,10 @@ These are my personal dotfiles for various applications, with a focus on my Hypr
 - **Neovide**: Custom settings for Neovide, a graphical frontend for Neovim.
 - **Waybar**: Custom status bar for Wayland.
 - **Wlogout**: Simple Wayland logout utility.
-- **Alacritty**: Lightweight terminal emulator with custom configurations.
+- **Alacritty**, **Kitty**, **Ghostty**: terminal emulator configs.
+- **Rofi** and **Wofi**: application launchers.
+
+> Built for Linux (case-sensitive filesystem). The Waybar setup is based on [JaKooLit's Hyprland dots](https://github.com/JaKooLit), customised with my own themes and modules.
 
 ## Installation
 
